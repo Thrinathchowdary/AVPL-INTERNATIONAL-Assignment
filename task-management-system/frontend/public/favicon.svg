@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Circle -->
+  <circle cx="50" cy="50" r="48" fill="url(#grad1)"/>
+  
+  <!-- Checkmark Icon -->
+  <g transform="translate(50, 50)">
+    <!-- Task List Lines -->
+    <line x1="-20" y1="-15" x2="10" y2="-15" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+    <line x1="-20" y1="0" x2="10" y2="0" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+    <line x1="-20" y1="15" x2="10" y2="15" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Checkmark -->
+    <polyline points="-25,-15 -28,-12 -25,-9" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <polyline points="-25,0 -28,3 -25,6" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <polyline points="-25,15 -28,18 -25,21" fill="none" stroke="#10b981" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

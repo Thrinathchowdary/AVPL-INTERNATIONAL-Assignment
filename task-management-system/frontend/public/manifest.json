@@ -1,0 +1,15 @@
+{
+  "short_name": "TaskManager",
+  "name": "Task Management System",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#667eea",
+  "background_color": "#f8f9fa"
+}
